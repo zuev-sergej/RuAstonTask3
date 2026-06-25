@@ -1,6 +1,7 @@
 package Strategy;
 
 public class Football {
+
     ShoutChant shoutChant;
 
     public void beatTheDrumm() {

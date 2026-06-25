@@ -1,6 +1,7 @@
 package ChainOfResponsibilyty;
 
 public class Main {
+
     public static void main(String[] args) {
 
         MoneyHandler thousand = new ThousandHandler();
