@@ -1,5 +1,7 @@
 package Proxy;
 
+// Контроль доступа к документу
+
 public class DocumentProxy implements Document {
     private RealDocument document;
     private String role;
