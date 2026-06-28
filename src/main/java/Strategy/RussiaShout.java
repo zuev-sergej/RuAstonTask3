@@ -1,6 +1,6 @@
 package Strategy;
 
-public class RussiaShout implements ShoutChant {
+public class RussiaShout implements ShoutStrategy {
 
     @Override
     public void shout() {

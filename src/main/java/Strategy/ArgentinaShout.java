@@ -1,9 +1,8 @@
 package Strategy;
 
-public class ArgentinaShout implements ShoutChant {
-
+public class ArgentinaShout implements ShoutStrategy {
     @Override
     public void shout() {
-        System.out.println("Аргентина чемпион!!!");
+        System.out.println("Vamos, Argentina!");
     }
 }

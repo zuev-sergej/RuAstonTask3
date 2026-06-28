@@ -4,14 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Football russia = new Russia();
-
+        Football russia = new Football(new RussiaShout(), new RussiaWhistle());
         russia.beatTheDrumm();
-        russia.Whistling();
+        russia.whistle();
         russia.shout();
 
-        Football argentina = new Argentina();
+        System.out.println();
 
+        Football argentina = new Football(new ArgentinaShout(), new ArgentinaWhistle());
         argentina.beatTheDrumm();
         argentina.shout();
     }
